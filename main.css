@@ -1,0 +1,61 @@
+body{
+	background-color: black;
+	overflow: hidden;
+	margin: 0;
+	padding-top: 0;
+	font-family: 'Raleway', sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #262626; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.nav-link i{
+	font-size: 18px;
+	color: yellow;
+	transition: all .3s ease-in-out;
+}
+.nav-link i:hover{
+	color: white;  
+}
+.pic{
+	box-sizing: border-box;
+}
+.cyril{
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: transform .5s;
+}
+.cyril:hover{
+	transform: scale(1.02);
+}
+.profile{
+	transition: opacity .5s;
+}
+.title{
+	font-weight: 800;
+	color: white;
+}
+.profile-body{
+	font-weight: 500;
+	color: white;
+}
+.highlight{
+	color: yellow;
+}
